@@ -12,13 +12,13 @@
   "author": "Rand01ph",
   "license": "MIT",
   "dependencies": {
-    "axios":"^0.18.0",
+    "axios": "^0.18.0",
     "hoek": "^5.0.3",
-    "react":"^16.4.2",
-    "react-dom":"^16.4.2"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
-    "babel-cli":"^6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
