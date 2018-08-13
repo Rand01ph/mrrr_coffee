@@ -24,7 +24,7 @@ mod schema;
 
 fn rocket() -> rocket::Rocket {
     let pool = db::create_db_pool();
-    let (allowed_origins, failed_origins) = AllowedOrigins::some(&["http://localhost:8000"]);
+    let (allowed_origins, failed_origins) = AllowedOrigins::some(&["http://localhost:3000"]);
     let options = rocket_cors::Cors {
         allowed_origins: allowed_origins,
         allowed_methods: vec![Method::Get, Method::Put, Method::Post, Method::Delete]
